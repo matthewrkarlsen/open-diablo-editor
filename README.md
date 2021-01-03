@@ -4,6 +4,8 @@
 
 This is an MIT-licensed Diablo editor, written in Java. I uploaded the code due to a request from mewmew (see official forum thread at http://www.lurkerlounge.com/forums/thread-16344.html).
 
+The editor also uses other software subject to different licenses, such as Gradle (see Credits/Acknowledgements below).
+
 ## Quickstart
 
 Download the built program from https://www.nexusmods.com/diablo/mods/1/? and follow the usage instructions on that page.

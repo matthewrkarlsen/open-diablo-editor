@@ -1,8 +1,10 @@
-OpenDiabloEditor.iml
+*.iml
 .gradle
+gradle/wrapper/gradle-wrapper.jar
 .idea
 .settings
 .classpath
 .project
 build
 releases
+target
