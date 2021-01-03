@@ -1,67 +1,67 @@
 # Open Diablo Editor (ODE)
 
+This repository should be *considered deprecated*. Work has continued in the 
+[Open Diablo Editor 2.0 repository](https://github.com/matthewrkarlsen/open-diablo-editor-2).
+
 ## Overview
 
-This is an MIT-licensed Diablo editor, written in Java. I uploaded the code due to a request from mewmew (see official forum thread at http://www.lurkerlounge.com/forums/thread-16344.html).
+This is an MIT-licensed Diablo editor, written in Java. I uploaded the code due to a request from mewmew
+(see [official forum thread](http://www.lurkerlounge.com/forums/thread-16344.html)).
 
 The editor also uses other software subject to different licenses, such as Gradle (see Credits/Acknowledgements below).
 
 ## Quickstart
 
-Download the built program from https://www.nexusmods.com/diablo/mods/1/? and follow the usage instructions on that page.
-
+Download the built program from [the Nexus Mods page](https://www.nexusmods.com/diablo/mods/1/?) and follow the usage
+instructions on that page.
 
 ## Slow(er) Start: Build via Gradle and Run
 
-- Install Java 1.8 (from http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+- Install Open JDK 1.8
 - Set your JAVA_HOME and add Java 1.8 to your PATH variable
-- Install Git (https://git-scm.com/downloads)
+- Install Git from [the Git homepage](https://git-scm.com/downloads)
 - Bring up a command prompt for the folder where you want to store the code
     - In Windows, shift + right click in an explorer pane then select open prompt
-- Run "git clone https://github.com/quixotic-cynic/open-diablo-editor.git"
-- Enter the OpenDiabloEditor folder and bring up a new prompt
+- Run "git clone https://github.com/matthewrkarlsen/open-diablo-editor.git"
+- Enter the `open-diablo-editor` folder and bring up a new prompt
 - Run "gradlew createReleaseJar"
-- Move the resulting jar from .../OpenDiabloEditor/build/libs to your Diablo folder
-- Run the JAR with the command "java -jar open-diablo-editor-0.0.1.jar" (changing the version as appropriate)
+- Move the resulting jar from `.../open-diablo-editor/build/libs` to your Diablo folder
+- Run the JAR with the command `java -jar open-diablo-editor-0.0.1.jar` (changing the version as appropriate)
     - Diablo.exe will remain unchanged
     - A new DiabloModded.exe will be created
     - No other files will be changed
     - If the DiabloModded.exe exists, ODE will load that in preference to the Diablo.exe
+- To run the modded version, double-click on `DiabloModded.exe`
 - Enjoy (hopefully)
-- Send me comments
 
 ## Authors/Contributors
 
-    Name: Matthew R. Karlsen
-    Email: firstname at lastname dot me dot uk
-    Alias 1: quixotic-cynic
-    Alias 2: quixoticynic (some sites do not allow "-" in usernames)
+The following people have contributed to the project:
 
-    Name:  Robin Eklind
-    Alias 1: mewmew 
-    
-    Name: ?
-    Alias: ChaosMarc
-
+- Matthew R. Karlsen
+- Robin Eklind (mewmew)
+- ChaosMarc
 
 ## Credits/Acknowledgements
 
-The mod workshop located at http://www.thedark5.com/info/mod.html has proven to be extremely valuable in the construction of this software.
+The [Diablo 1 mod workshop](http://www.thedark5.com/info/mod.html) (dead link) has proven to be extremely valuable in
+the construction of this software.
+
+A recent mirror for the mod workshop is available [here](https://d1ablo.gitlab.io/d1-mod-workshop).
 
 The workshop was originally created by Charlie with assistance from Jarulf.
 
-A big thanks to Zamal & Zenda for continuing to host it, and not letting it disappear.
+A big thanks to all those who hosted it for so long.
 
-The gradle wrapper is part of Gradle (https://gradle.org/), licensed under the Apache 2.0 license.
+The gradle wrapper is part of [Gradle](https://gradle.org/), licensed under the Apache 2.0 license.
 
-We use JUnit 4 for testing, licensed under the Eclipse Public License 1.0.
-
+JUnit 4 is used for testing, licensed under the Eclipse Public License 1.0.
 
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Matthew R. Karlsen
+Copyright (c) 2015-2020 Matthew R. Karlsen
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
