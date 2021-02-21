@@ -8,3 +8,5 @@ gradle/wrapper/gradle-wrapper.jar
 build
 releases
 target
+input
+input/Diablo.exe
